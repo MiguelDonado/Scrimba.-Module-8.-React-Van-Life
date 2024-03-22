@@ -1,13 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import aboutimg from '/assets/aboutimg.jpg'
 
 
 export default function About () {
   return (
     <div className="home-container">
       <main className="about-main-container">
-        <img src={aboutimg} alt="Guy on a Van" className="about-img"></img>
+        <img src="https://esbit.de/wp-content/uploads/2020/05/VanLife-tommy-lisbin-unsplash.jpg" alt="Guy on a Van" className="about-img"></img>
         <div className="about-main-inner">
           <h1 className="about-main-title">
             Don’t squeeze in a sedan when you could relax in a van.
